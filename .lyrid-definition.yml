@@ -1,0 +1,15 @@
+name: wordpress
+description: App Description
+ignoreFiles: .git
+modules:
+  - name: container
+    language: docker
+    description: Module description
+    container: 
+    volumes:
+    ports:
+      - alias: "http"
+        port: 80
+    functions:
+      - name: entry
+        description: the entry point for the function
