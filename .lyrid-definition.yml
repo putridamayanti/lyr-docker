@@ -1,6 +1,7 @@
-name: wordpress
+name: wordpress-pro-lyrid-2
 description: App Description
 ignoreFiles: .git
+operator: true
 modules:
   - name: container
     language: docker
